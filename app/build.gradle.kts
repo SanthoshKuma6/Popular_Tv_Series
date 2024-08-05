@@ -73,54 +73,38 @@ dependencies {
     debugImplementation(libs.androidx.ui.test.manifest)
 
     //navigation Graph
-    implementation("androidx.navigation:navigation-compose:2.7.7")
-
+    implementation(libs.androidx.navigation.compose)
     //retrofit
-    implementation("com.squareup.retrofit2:retrofit:2.9.0")
-
+    implementation(libs.retrofit)
     // OkHttp
-    implementation("com.squareup.okhttp3:okhttp:5.0.0-alpha.2")
-    implementation("com.squareup.okhttp3:logging-interceptor:5.0.0-alpha.1")
-
+    implementation(libs.okhttp)
+    implementation(libs.logging.interceptor)
     //gson convertor
-    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
-
+    implementation(libs.converter.gson)
     //serialization
-    implementation("com.google.code.gson:gson:2.10")
-
+    implementation(libs.gson)
     //viewModel
-    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0")
-
+    implementation(libs.androidx.lifecycle.viewmodel.ktx)
     //Paging
-    implementation("androidx.paging:paging-runtime-ktx:3.1.1")
-    implementation("androidx.paging:paging-compose:1.0.0-alpha18")
-
+    implementation(libs.androidx.paging.runtime.ktx)
+    implementation(libs.androidx.paging.compose)
     // LiveData
-    implementation("androidx.compose.runtime:runtime-livedata:1.0.5")
-
+    implementation(libs.androidx.runtime.livedata)
     // Activity Compose
-    implementation("androidx.activity:activity-compose:1.4.0")
-
+    implementation(libs.androidx.activity.compose.v140)
     //ViewModel Compose
-    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.4.0")
-
+    implementation(libs.androidx.lifecycle.viewmodel.compose)
     //Coil for Compose
-    implementation("io.coil-kt:coil-compose:2.1.0")
-
+    implementation(libs.coil.compose)
     //constraintlayout
-    implementation("androidx.constraintlayout:constraintlayout-compose:1.0.1")
-
+    implementation(libs.androidx.constraintlayout.compose)
     //room
-    implementation("androidx.room:room-runtime:2.5.0")
-    implementation("androidx.room:room-ktx:2.5.0")
-    annotationProcessor ("androidx.room:room-compiler:1.0.0" )
-
-
+    implementation(libs.androidx.room.runtime)
+    implementation(libs.androidx.room.ktx)
+    annotationProcessor (libs.androidx.room.compiler )
     //Compose Runtime
-    implementation("androidx.compose.runtime:runtime:1.5.0")
-
+    implementation(libs.androidx.runtime)
     //Coroutines Core
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.0")
-
+    implementation(libs.kotlinx.coroutines.core)
 
 }
