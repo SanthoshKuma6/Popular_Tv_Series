@@ -7,17 +7,17 @@ The app fetches movie data from a remote API and provides a seamless experience 
 
 ## Features
 
-- Fetch Movies**: Retrieve a list of movies from a remote API.
-- Display Movies**: Show movie details using Jetpack Compose.
-- Local Storage**: Save movie data to a local database using Room.
-- Offline Mode**: Fetch and display movie data even when offline.
+- Fetch Movies: Retrieve a list of movies from a remote API.
+- Display Movies: Show movie details using Jetpack Compose.
+- Local Storage: Save movie data to a local database using Room.
+- Offline Mode: Fetch and display movie data even when offline.
 
 ## Architecture
 
-- Jetpack Compose**: For building a modern and responsive UI.
+- Jetpack Compose: For building a modern and responsive UI.
 - Room**: For local data storage and offline capabilities.
-- ViewModel**: To manage UI-related data in a lifecycle-conscious way.
-- Repository Pattern**: To handle data operations and abstract data sources.
+- ViewModel: To manage UI-related data in a lifecycle-conscious way.
+- Repository Pattern: To handle data operations and abstract data sources.
 
 ## Project Structure
 
